@@ -17,6 +17,13 @@ style = { shape = "Beam", blinking = "On" }
 program = "wsl.exe"
 args = ["-d", "Ubuntu", "--cd", "~"]
 
+[keyboard]
+
+bindings = [
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" }
+]
+
 [colors.primary]
 background = "#16161D"
 foreground = "#DCD7BA"
